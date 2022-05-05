@@ -12,7 +12,7 @@ async function getPackage(pkg:string, version:string) {
     return app;
 }
 async function main() {
-    // it errors here in function line 7 till line 12
+    // it errors in this const, in the function: line 7 till line 12
      const kek = await getPackage('pulumi-cr-platform', '7.0.1');
 
     const args: InlineProgramArgs = {
