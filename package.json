@@ -1,0 +1,15 @@
+{
+  "name": "pulumi-live-injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/pulumi": "^3.32.1",
+    "live-plugin-manager": "^0.17.1"
+  }
+}
