@@ -13,12 +13,12 @@ async function getPackage(pkg:string, version:string) {
 }
 async function main() {
     // it errors in this const, in the function: line 7 till line 12
-     const kek = await getPackage('pulumi-cr-platform', '7.0.1');
+     const app = await getPackage('pulumi-cr-platform', '7.0.1');
 
     const args: InlineProgramArgs = {
         stackName: 'henk',
         projectName: 'test',
-        program: kek.fixDit(),
+        program: app.fixDit(),
     };
 
     // it never comes here , because error is happening in lines above.
