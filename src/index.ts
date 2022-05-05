@@ -26,3 +26,4 @@ async function main() {
     await stack.workspace.installPlugin('aws', 'v3.38.1');
     await stack.up();
 }
+main();
